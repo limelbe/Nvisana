@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title> 인재상 : 인재채용 : NvisANA </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="../../images/icon/favicon.ico"><!-- 파비콘 설정 .ico 확장명 -->
+  <link rel="apple-touch-icon" href="../../images/layout/icon114.png"><!-- ios -->
+  <link rel="shortcut icon" href="../../images/layout/icon72.png"><!-- android -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="../../js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script src="../../js/jquery-1.12.4.min.js"></script>
+  <script src="../../js/respond.min.js"></script> <!-- @media를 인식하지 못하는 ie8이하 브라우저용, css보다 늦게 위치해야함, 로컬에서는 해석되지 안항 서버에 올리고 테스트-->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="../../js/common.js"></script>
+</head>
+
+<body data-depth-one="5" data-depth-two="1"> <!-- location, snb에서 복제(#gnb)해서 사용 -->
+  <div id="skip"><a href="#content">본문 바로가기</a></div>
+
+  <header id="header">
+    <div class="wide">
+      <h1 class="logo p_a">
+        <a href="">NvisANA</a><!-- 배경이미지 처리 -->
+      </h1>
+      <div class="language p_a">
+        <h2 class="blind">언어선택</h2>
+        <button type="button">KOR</button><!-- 삼각형 아이콘은 가상요소로 css에서 처리 -->
+        <a href="">ENG</a><!-- 스크립트 hide()로 숨기기 -->
+      </div>
+      <button class="btn_all open" aria-label="전체 메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="gnb">
+        <h2 class="blind">주메뉴</h2>
+        <!-- aria-label로 .blind 대체 -->
+        <ul>
+          <li>
+            <a href="">기업정보</a>
+            <ul>
+              <li><a href="">회사소개</a></li>
+              <li><a href="">대표이사 인사말</a></li>
+              <li><a href="">연혁</a></li>
+              <li><a href="">사업장소개</a></li>
+              <li><a href="">성장전략</a></li>
+              <li><a href="">오시는 길</a></li>
+            </ul>
+          </li>
+          <li>    
+            <a href="">제품소개</a>
+            <ul>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">M-SPEC</a></li>
+              <li><a href="">O-SPEC</a></li>
+              <li><a href="">I-SPEC</a></li>
+            </ul>
+          </li>
+          <li>   
+            <a href="">연구개발</a>
+            <ul>
+              <li><a href="">연구소 소개</a></li>
+              <li><a href="">보유기술</a></li>
+              <li><a href="">특허현황</a></li>
+            </ul>
+          </li>
+          <li> 
+            <a href="">홍보</a>
+            <ul>
+              <li><a href="">공지사항</a></li>
+              <li><a href="">뉴스룸</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="">인재채용</a>
+            <ul>
+              <li><a href="">인재상</a></li>
+              <li><a href="">복리후생</a></li>
+              <li><a href="">직무소개</a></li>
+              <li><a href="">채용공지 및 절차</a></li>
+              <li><a href="">직원들의 이야기</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div id="dim"></div>
+    </div>
+  </header>
+
+  <div class="top_visual">
+    <div class="tit_box">
+      <div class="location">
+        <a href="">홈</a>
+        <span class="dep1txt"></span>
+        <span class="dep2txt"></span>
+      </div>
+      <h2></h2>
+    </div>
+  </div>
+
+  <nav id="snb">
+    <div class="area">
+        <a href="" class="home" aria-label="홈"><i class="fas fa-home"></i></a>
+        <div class="dep dep1">
+            <h2 class="blind">주메뉴</h2>
+            <a href=""><span></span><img src="../../images/contents/lnbArrow01.svg" alt=""></a><!-- 현재 페이지를 원래 스크립트로 변수 넣어서 작성 -->
+            <ul>  <!-- 얘네만 직접 입력 어느 페이지든 공통이니까 -->
+                <li><a href="">기업정보</a></li>
+                <li><a href="">제품소개</a></li>
+                <li><a href="">연구개발</a></li>
+                <li><a href="">홍보</a></li>
+                <li><a href="">인재채용</a></li>
+            </ul>
+        </div>
+        <div class="dep dep2">
+            <h2 class="blind">서브메뉴</h2>
+            <a href=""><span></span><img src="../../images/contents/lnbArrow02.svg" alt=""></a>
+        </div>
+    </div>
+</nav>
+
+  <section id="content" class="area">
+    <h2 class="blind"></h2>
+    <ul class="talent clearfix">
+      <li>
+        <div class="txt">
+          <h3>창의적 인재</h3>
+          <p>기술 선도 사업을 영위하는 IT기업으로서 기존의 형식을 타파하고 발상의 전환과 창의성을 가지고 새로운 아이디어 도출과 문제 해결할 수 있는 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent01.png" alt=""></div>
+      </li>
+      <li>
+        <div class="txt">
+          <h3>전문적 인재</h3>
+          <p>꾸준한 자기 개발을 통하여 자아를 개발하고, 각 맡은 기술 분야에서 최고의 전문가가 되기 위해 지속적으로 노력하는 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent02.png" alt=""></div>
+      </li>
+      <li>
+        <div class="txt">
+          <h3>도덕적 인재</h3>
+          <p>매사에 혁신적인 자세로 임하되 모든 업무에 투명하고 정직한 처리로 고객, 임직원 등 이해관계자로 부터 믿음과 신뢰를 받는 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent03.png" alt=""></div>
+      </li>
+      <li>
+        <div class="txt">
+          <h3>성실한 인재</h3>
+          <p>작은 일에도 책임감을 가지고 매사 최선을 다하는 성실성을 가진 인재. 일의 성과뿐만 아니라 그 과정도 중시 여길 수 있는 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent04.png" alt=""></div>
+      </li>
+      <li>
+        <div class="txt">
+          <h3>도전적 인재</h3>
+          <p>미래지향적인 도전의식과 창의성을 바탕으로 새로운 기술과 성장동력을 찾기 위해 끊임 없이 연구하여 변화와 혁신을 추구하는 역동적인 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent05.png" alt=""></div>
+      </li>
+      <li>
+        <div class="txt">
+          <h3>글로벌 인재</h3>
+          <p>세계 어디서든 자신의 생각을 표한하고 타인과 의사소통을 할 수 있는 커뮤니케이션 능력을 보유한 인재</p>
+        </div>
+        <div class="img"><img src="../../images/contents/talent06.png" alt=""></div>
+      </li>
+    </ul>
+  </section>
+
+  <footer id="footer">
+    <div class="area">
+      <h2><img src="../../images/layout/logoWhite.png" alt="앤비스아나"></h2>
+      <address>
+        <!-- dl: 설명 리스트
+        dt:용어 term / dd: 용어설명 description
+        dl, dd는 여백을 가지고 있음
+        -->
+        <dl>
+          <dt class="blind">주소</dt>
+          <dd>경기도 용인시 기흥구 흥덕중앙로 120, 2801호(영덕동, 유타워) </dd>
+          <dt class="dot">TEL</dt>
+          <dd>070-4202-0757 </dd>
+          <dt class="dot">FAX</dt>
+          <dd>031-898-0757</dd>
+        </dl>
+      </address>
+      <p>본사이트의 모든 콘텐츠는 저작권법의 보호를 받는바, 무단 전재, 복사, 배포 등을 금합니다.</p>
+      <p>Copyrights (c) 2019 NvisANA all Rights Reserved.</p>
+      <dl class="total">
+        <dt>Total</dt>
+        <dd>12259</dd>
+        <dt>Today</dt>
+        <dd>83</dd>
+      </dl>
+    </div>
+    <button class="btn_top p_a" type="button">TOP</button>
+  </footer>
+</body>
+
+</html>
